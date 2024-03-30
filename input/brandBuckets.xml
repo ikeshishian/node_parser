@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="goodwill-storefront">
+         <refinement-definition type="attribute" bucket-type="values" attribute-id="brand" system="true">
+            <display-name xml:lang="x-default">Brand</display-name>
+            <value-set>search-result</value-set>
+            <sort-mode>value-name</sort-mode>
+            <sort-direction>ascending</sort-direction>
+            <unbucketed-values-mode>hide</unbucketed-values-mode>
+            <cutoff-threshold>5</cutoff-threshold>
+            <bucket-definitions>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">1901</display-name>
+                  <value-list xml:lang="x-default">1901,1901 Nordstrom,1901 by Nordstrom</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">&amp; Other Stories</display-name>
+                  <value-list xml:lang="x-default">&amp; Other Stories</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">1.STATE</display-name>
+                  <value-list xml:lang="x-default">1State</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">14th &amp; Union</display-name>
+                  <value-list xml:lang="x-default">14th &amp; Union</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">1822 Denim</display-name>
+                  <value-list xml:lang="x-default">1822,1822 Denim,1822 Denim Taylor</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">1847 Rogers Bros.</display-name>
+                  <value-list xml:lang="x-default">1847 Rogers,1847 Rogers Bros,1847 Rogers
+ Bros.,1847 Rogers Brothers</value-list>
+               </attribute-bucket>
+               <attribute-bucket>
+                  <display-name xml:lang="x-default">188 West Collection</display-name>
+                  <value-list xml:lang="x-default">188 West,188 West Collection</value-list>
+                  <presentation-id>popular</presentation-id>
+                  <description xml:lang="x-default">Popular</description>
+               </attribute-bucket>
+            </bucket-definitions>
+         </refinement-definition>
+</catalog>
